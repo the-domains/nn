@@ -1,25 +1,42 @@
-name: nn
-favicon: null
-layout_spectrum: 0.8
-cta:
-  domain: null
-  bucket: null
-  version: null
 analytics:
+  twitter: null
   google: null
   facebook: null
-  twitter: null
+name: nn
 opengraph:
   image: null
   type: null
   appId: null
-color:
-  brandColors: []
-  brandStrength: 0
-  lightness: 0.5
-  saturation: 0.5
-  rhythmicContrast: 0.5
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 purpose:
   - name: sign-ups
-    item: null
     url: null
+    item: null
+color:
+  saturation: 0.5
+  brandStrength: 0.9680851
+  lightness: 0.5425532
+  brandColors:
+    - '#D7EAFB'
+    - '#271E27'
+    - '#88A2A3'
+    - '#309BC7'
+    - '#555228'
+  rhythmicContrast: 0.9893617
+layout_spectrum: 0.8
+cta:
+  bucket: null
+  version: null
+  domain: null
+favicon: null
